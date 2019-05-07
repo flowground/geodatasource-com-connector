@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "lng": {
+            "required": true,
+            "type": "number"
+        },
+        "lat": {
+            "required": true,
+            "type": "number"
+        },
+        "format": {
+            "enum": [
+                "json",
+                "xml"
+            ],
+            "type": "string"
+        }
+    }
+}
